@@ -1,0 +1,67 @@
+
+Crowley David 9778655
+1er Cycle
+Collège de Maisonneuve
+Programmation Objet
+Groupe 04
+
+#################################################################################################################
+
+Projet TP_2
+------------
+Créer un jeu de type PENDU en utilisant un interface graphique de type Tkinter.
+
+Module nécessaire :
+- pygame
+- tkinter
+-------------------------------------------
+Références et utilisation de tierce partie:
+
+Musique :
+"The Good, the Bad and the Ugly"  theme; 1966 composed by Hugo Montenegro
+Dr Mario - (fever); 1990; musical theme composed by Hirokazu Tanaka
+Victory Fanfare Final Fantasy XIV (alternate version) ; Shouri no Faanfaare
+Cowboy music; unknown for now
+
+#################################################################################################################
+------------------
+Énoncé officiel :
+------------------
+
+Description générale:
+Vous devez construire une application avec une interface graphique simple
+utilisant Tkinter. Vous pouvez faire l’application décrite plus bas, ou choisir votre propre application.
+Vous devriez faire approuver votre idée d’application par le professeur pour vous assurer que le sujet et
+la difficulté sont appropriés.
+
+Peu importe le sujet choisi, vous devrez inclure les éléments suivants dans votre application :
+lire et/ou écrire dans un fichier (fichier texte, CSV, image, …)
+utiliser des listes et/ou des dictionnaires de façon appropriée
+définir une ou des classes, avec leurs attributs et méthodes appropriés
+Le but est de réaliser une interface graphique simple et fonctionnelle.
+L’évaluation se fera en majeure partie sur les fonctionnalités, et non pas sur la beauté de
+l’interface. Les différentes composantes doivent tout de même être bien disposées pour ne pas nuire
+à l’utilité et la convivialité de l’application.
+
+Application suggérée :
+Faites un jeu de type “Bonhomme Pendu” avec une interface graphique simple.
+Il n’est pas nécessaire de dessiner de beaux graphiques, mais il devrait y avoir quelques éléments
+d’interface graphique dans l’application, comme quelques boutons, étiquettes, …
+
+Fonctionnalités à inclure dans l’application:
+Un bouton, ou un menu,
+pour lire une liste de mots à partir d’un fichier
+pour débuter une nouvelle partie
+pour abandonner la partie courante
+pour quitter l’application
+Un endroit (étiquette, canvas, …) qui montre le mot à être deviné
+(peut-être avec des _ pour remplacer les lettres non découvertes)
+
+Afficher, d’une façon logique, les lettres déjà devinées
+Demander une lettre au joueur, soir avec une fenêtre de dialogue, soit avec des widgets intégrés
+à la fenêtre principale.
+
+Afficher la progression du jeu (par exemple, le nombre d’essais restant).
+
+
+
