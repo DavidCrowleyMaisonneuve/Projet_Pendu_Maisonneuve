@@ -232,7 +232,7 @@ class Pendu_Tkinter_game():
                        command = lambda: (game_window.destroy(),pg.mixer.music.unload()))
         quit.grid(row = 7, column = 1, sticky = "se")
 
-        self.music_play("sound/gaming_music.wav", -1)
+        self.music_play("sound/gaming_music.mp3", -1)
 
     def pendu_show(self, game_window):
         self.set_value = 700 * (self.token /self.difficulty)
